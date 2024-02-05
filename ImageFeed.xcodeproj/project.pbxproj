@@ -14,6 +14,7 @@
 		775AF6142B6A2ED400F45CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775AF6132B6A2ED400F45CE9 /* Assets.xcassets */; };
 		775AF6172B6A2ED400F45CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775AF6152B6A2ED400F45CE9 /* LaunchScreen.storyboard */; };
 		775AF61F2B6A468800F45CE9 /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775AF61E2B6A468800F45CE9 /* ImagesListCell.swift */; };
+		7775FC822B70F74200A961EF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775FC812B70F74200A961EF /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		775AF6162B6A2ED400F45CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775AF6182B6A2ED400F45CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		775AF61E2B6A468800F45CE9 /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
+		7775FC812B70F74200A961EF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				775AF60A2B6A2ED300F45CE9 /* AppDelegate.swift */,
 				775AF60C2B6A2ED300F45CE9 /* SceneDelegate.swift */,
+				7775FC832B70F74900A961EF /* Profile */,
 				775AF6212B6A529300F45CE9 /* ImagesList */,
 				775AF6102B6A2ED300F45CE9 /* Main.storyboard */,
 				775AF6132B6A2ED400F45CE9 /* Assets.xcassets */,
@@ -76,6 +79,14 @@
 				775AF60E2B6A2ED300F45CE9 /* ImagesListViewController.swift */,
 			);
 			path = ImagesList;
+			sourceTree = "<group>";
+		};
+		7775FC832B70F74900A961EF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7775FC812B70F74200A961EF /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			files = (
 				775AF60F2B6A2ED300F45CE9 /* ImagesListViewController.swift in Sources */,
 				775AF61F2B6A468800F45CE9 /* ImagesListCell.swift in Sources */,
+				7775FC822B70F74200A961EF /* ProfileViewController.swift in Sources */,
 				775AF60B2B6A2ED300F45CE9 /* AppDelegate.swift in Sources */,
 				775AF60D2B6A2ED300F45CE9 /* SceneDelegate.swift in Sources */,
 			);
